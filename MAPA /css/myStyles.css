@@ -1,0 +1,79 @@
+/**MIS CAMBIOS **/
+#map {
+  height:500px;
+  width: 100%;
+}
+#bg-video {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+  object-fit: cover; 
+  z-index:  -1;
+}
+
+.content-section{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 5px 0;
+    
+}
+.content-section video {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 20%;
+}
+
+.masthead h1{
+    color: rgba(241, 245, 247, 0.973);
+}
+.masthead h3{
+    color: rgb(151, 151, 151);
+}
+.masthead .btn {
+    background-color: rgba(88, 90, 90, 0.425);
+    border-color:  rgba(44, 43, 43, 0.342) ;
+    
+}
+.masthead .btn:hover {
+    color:rgba(0, 0, 0, 0.26)
+}
+/**Barra Navegacion**/
+#sidebar-wrapper  {
+    background:rgba(176, 176, 177, 0.637)
+    
+    
+}
+
+.sidebar-nav > .sidebar-brand {
+    background-color: rgba(51, 50, 50, 0.568);
+    
+}
+/** texto popu**/
+.popup p {
+    font-size: 20px;
+}
+
+/** mapa **/
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+.popup{
+    background-color: rgba(83, 87, 87, 0.774) ;
+    border-color: rgba(48, 49, 48, 0.5);
+    
+    
+}
+
+.page,.main {
+  height: 100%;
+}
+
+
+
